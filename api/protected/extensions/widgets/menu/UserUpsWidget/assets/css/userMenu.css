@@ -1,0 +1,99 @@
+
+#authorization_pop {
+    display:none;
+    position:absolute;
+    z-index:1000;
+    top:-1px;
+    left:-1px;
+    width: 100%;text-align: left;
+}
+
+#authorization_pop a {
+    text-align: center;
+    border-bottom:1px solid #ffb32c;
+    display: block;
+    line-height:15px;
+    height: 15px;
+    width: 100%;
+
+
+}
+
+
+#authorization_pop #close_user_list_pop a {
+    border-radius: 15px 15px 0 0 ;
+    -moz-border-radius-topleft: 15px;
+    -webkit-border-top-left-radius: 15px;
+    -khtml-border-radius-topleft: 15px;
+    -moz-border-radius-topright: 15px;
+    -webkit-border-top-right-radius: 15px;
+    -khtml-border-radius-topright: 15px;
+    height: 26px;
+    line-height: 26px;
+
+}
+#authorization_pop div.last a {
+    border-bottom:0;
+    border-radius: 0 0 15px 15px;
+    -moz-border-radius-bottomleft: 15px;
+    -webkit-border-bottom-left-radius: 15px;
+    -khtml-border-radius-bottomleft: 15px;
+    -moz-border-radius-bottomright: 15px;
+    -webkit-border-bottom-right-radius: 15px;
+    -khtml-border-radius-bottomright: 15px;
+}
+#authorization_pop div a:link,
+#authorization_pop div a:active,
+#authorization_pop div a:visited {
+    color:#368bc6;
+    font-size:11px;
+    height: 26px;
+    line-height: 26px;
+
+}
+
+#authorization_pop div a span{
+    color: #666666;
+}
+#authorization_pop div a:hover {
+    color:#000000;
+    font-size:11px;
+    background:#f9e781;
+    text-align:center;
+}
+#authorization_pop div.last:hover a:hover {
+    color:#000000;
+    font-size:11px;
+    background:#f9e781;
+    text-align:center;
+    /*-moz-border-radius-bottomleft: 15px;
+    -webkit-border-bottom-left-radius: 15px;
+    -khtml-border-radius-bottomleft: 15px;
+    -moz-border-radius-bottomright: 15px;
+    -webkit-border-bottom-right-radius: 15px;
+    -khtml-border-radius-bottomright: 15px;*/
+}
+
+
+
+#authorization {
+    border:1px solid #d5e4ee;
+    background:#fff;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -khtml-border-radius: 15px;
+    border-radius: 15px;
+}
+#authorization:hover .menu_h_border:hover {
+    border:1px solid #fff;
+    background:#fff;
+
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -khtml-border-radius: 15px;
+    border-radius: 15px;
+    background:#f8f8f8 url(../images/headmenu_h_bg.gif) repeat-x left bottom;
+
+
+}
+

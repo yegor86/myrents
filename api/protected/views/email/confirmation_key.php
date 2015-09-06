@@ -1,0 +1,2 @@
+<?php echo Yii::t('default', '{username}, follow by link to activate account', array('username'=>$username))?>
+<?php echo ($this->createAbsoluteUrl('site/register').'&amp;uid='.$uid.'$amp;key='.$key);?>

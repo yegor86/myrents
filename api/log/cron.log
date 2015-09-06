@@ -1,0 +1,14 @@
+2012/11/14 14:20:26 [error] [php] include(Memcached.php): failed to open stream: No such file or directory (/home/yawa/public_html/framework/YiiBase.php:418)
+Stack trace:
+#0 /home/yawa/public_html/framework/caching/CMemCache.php(113): spl_autoload_call()
+#1 /home/yawa/public_html/framework/caching/CMemCache.php(90): CMemCache->getMemCache()
+#2 /home/yawa/public_html/framework/base/CModule.php(388): CMemCache->init()
+#3 /home/yawa/public_html/framework/base/CModule.php(104): CConsoleApplication->getComponent()
+#4 /home/yawa/public_html/myrents_stab/Yiiapp/protected/commands/TopswitcherCommand.php(23): CConsoleApplication->__get()
+#5 /home/yawa/public_html/myrents_stab/Yiiapp/protected/commands/TopswitcherCommand.php(13): TopswitcherCommand->initVars()
+#6 /home/yawa/public_html/framework/console/CConsoleCommandRunner.php(65): TopswitcherCommand->run()
+#7 /home/yawa/public_html/framework/console/CConsoleApplication.php(91): CConsoleCommandRunner->run()
+#8 /home/yawa/public_html/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#9 /home/yawa/public_html/framework/yiic.php(33): CConsoleApplication->run()
+#10 /home/yawa/public_html/myrents_stab/Yiiapp/protected/cron.php(6): require_once()
+

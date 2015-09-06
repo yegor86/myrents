@@ -1,0 +1,9 @@
+Host: myrents.com.ua
+user-agent: *
+Disallow: /wlogin #запрещаем индексацию страниц логина через VK и FB
+Disallow: /register #запрещаем индексацию страницы регистрации и все, что с ней связано
+Disallow: /search/?SearchForm #запрещаем индексацию всех страниц с неправильными URL
+Disallow: /support #запрещаем индексацию страницы обратной связи
+DIsallow: /user #запрещаяем индексацию всех страниц пользователей
+DIsallow: */ua/*
+Disallow: */en/*

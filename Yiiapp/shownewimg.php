@@ -1,0 +1,1 @@
+<span class="big_avatar" style="background-image:url(/test.jpg)"></span>

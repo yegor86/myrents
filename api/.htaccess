@@ -1,0 +1,23 @@
+AddDefaultCharset utf-8 
+Options +FollowSymLinks
+IndexIgnore */*
+RewriteEngine on
+# if a directory or a file exists, use it directly
+
+RewriteCond %{HTTP_HOST} ^www\.(.*) [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+
+RewriteCond %{THE_REQUEST} ^GET.*index\.php [NC]
+RewriteRule (.*?)index\.php/*(.*) /$1$2 [L]
+
+#RewriteCond %{HTTP_HOST} ^api\.(.*) [NC]
+#RewriteRule ^(.*)$ http://%1/api/$1 [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+# otherwise forward it to index.php
+#следущая строка - костыль для некоторых хостингов
+#RewriteRule . /index.php?
+#в случае костыля предидущую строку раскоментить а эту закоментить
+RewriteRule . index.php
+

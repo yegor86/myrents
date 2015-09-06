@@ -1,0 +1,100 @@
+
+.auth-icon {
+    display: block;
+    width: 125px;
+    height: 18px;
+
+
+
+}
+
+.auth-icon.google, 
+.auth-icon.google_oauth { background-position: 0 -34px;  }
+.auth-icon.twitter		{ background-position: 0 -68px;  }
+.auth-icon.yandex		{ background-position: 0 -102px; }
+/*.auth-icon.vkontakte	{ background-position: 0 -136px; }
+.auth-icon.facebook		{ background-position: 0 -170px; }
+.auth-icon.mailru		{ background-position: 0 -204px; }
+*/
+.auth-icon.facebook	{  background-image: url("../images/sing_fb.gif"); background-position: left top; background-repeat: no-repeat}
+.auth-icon.vkontakte	{ background-image: url("../images/sing_vk.gif"); background-position: right top; float: right; background-repeat: no-repeat}
+
+
+/*
+a:hover .auth-icon i,
+a.auth-icon:hover  i,
+a:focus .auth-icon i,
+a.auth-icon:focus  i {
+    display: block;
+    width: 32px;
+    height: 32px;
+    background: url("../images/auth.png") 0 0 no-repeat;
+}*/
+
+ul.auth-services {
+
+    list-style: none;
+    float: none;
+    margin: 0;
+    display: block;
+    width: 270px;
+    padding:0;
+}
+    
+ul.auth-services li {
+    border-radius: 0;
+    border: 0;
+    display: block;
+    float: left;
+    margin: 0;
+
+    padding: 0 0 20px 0;
+    width: 115px;
+
+
+}
+ul.auth-services li:hover {
+    background: none;
+    border-radius: 0;
+    border: 0;
+
+    margin: 0;
+    padding: 0;
+    
+
+}
+      
+ul.auth-services li a {
+    margin: 0;
+    padding: 0;
+
+    /*padding: 0 0.4em;*/
+}
+
+
+ul.auth-services li a .auth-icon {
+    cursor: pointer;
+}
+          
+ul.auth-services li a .auth-title {
+    display: block;
+    /*margin-top: 0.4em;*/
+    text-align: center;
+}
+
+.big_auth a.facebook{
+    background: url(../images/reg_sing_fb.png) no-repeat center center;
+    border: 1px solid  transparent;
+}
+.big_auth a.facebook:hover{
+    background: #fff url(../images/reg_sing_fb.png) no-repeat center center;
+    border: 1px solid #cdcdcd;
+}
+.big_auth a.vkontakte{
+    background: url(../images/reg_sing_vk.png) no-repeat center center;
+    border: 1px solid  transparent;
+}
+.big_auth a.vkontakte:hover{
+    background: #fff url(../images/reg_sing_vk.png) no-repeat center center;
+    border: 1px solid #cdcdcd;
+}

@@ -1,0 +1,504 @@
+@charset "utf-8";
+/*
+	styles for select
+*/
+#cuselFrame-rentertype{
+    margin-left: 20px;
+}
+#cuselFrame-rentertype .cusel-scroll-wrap{
+    width:193px;
+}
+#cuselFrame-rentertype .cusel-scroll-wrap span{
+    
+        width:184px;
+}
+#cuselFrame-rents_sort{
+    z-index: 66;
+}
+#cuselFrame-rents_sort .cusel-scroll-wrap{
+    width:94px;
+}
+#cuselFrame-rents_sort .cusel-scroll-wrap span{
+    width:85px;
+}
+
+.cusel,
+.cuselFrameRight,
+.jScrollPaneDrag,
+.jScrollArrowUp,
+.jScrollArrowDown {
+	background: url(../images/cusel/selects-2.png) no-repeat;
+
+}
+#search_location .cusel_list_box .cusel span {
+    width: auto;
+}
+#edit_rent_price .cusel{
+    
+   z-index: auto;
+
+}
+#cuselFrame-select_currency span{  
+   width: 84px
+}
+#cuselFrame-select_currency .cusel-scroll-wrap{
+    width: 93px;
+}
+.cusel { /* общий вид селекта включая стрелку справа */
+	height: 26px;
+	background-position: left top;
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+	font-size: 14px;
+	z-index: 1;
+}
+.cuselFrameRight { /* левая чсть селект. обыно скругление и левая граница */
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	right: 0;
+	height: 100%;
+	width: 42px;
+	background-position: right top;
+}
+
+.cuselText { /* контейнер для отображенного текста селект */
+	height: 14px;
+	padding: 6px 0 0 10px; /* подбираем отступы и высоту для видимого текста в селекте */
+	cursor: pointer;
+	overflow: hidden;
+	position: relative;
+	/*z-index: 1;*/
+	font-size: 12px;
+        font-family: verdana;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+* html .cuselText { /* высота блока для текста для ие6 */
+	height: 22px;
+}
+
+.cusel span { /* оформление оптиона */
+	display: block;
+        width: 67px;
+	cursor: pointer;
+	white-space: nowrap;
+	padding: 2px 2px 2px 7px; /* паддинг справа - это отступ текста от ползунка */
+	zoom: 1;
+        font-size: 12px;
+        font-family: verdana;
+        height: 20px;
+        line-height: 20px;
+        border-bottom: 1px solid #FFB32C;
+}
+.cusel span:hover,
+.cusel .cuselOptHover { /* реакция оптиона на наведение */
+	background: #F9E781;
+	color: #000;
+
+}
+
+.cusel .cuselActive { /* оформление активного оптиона в списке */
+	background: #f8f8f8 url(../images/headmenu_h_bg.gif) repeat-x bottom left;
+
+	color: #000;
+	cursor: default;
+}
+.cusel .cuselActive:last-child  {
+    border-bottom:1px solid transparent;
+    border-radius: 0 0 4px 4px;
+    -moz-border-radius-bottomleft: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    -khtml-border-radius-bottomleft: 4px;
+    -moz-border-radius-bottomright: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    -khtml-border-radius-bottomright: 4px;
+}
+
+/*
+	styles for focus and hover
+*/
+.cusel:hover,
+.cusel:hover .cuselFrameRight,
+.cusel:focus,
+.cusel:focus .cuselFrameRight,
+.cuselFocus,
+.cuselFocus .cuselFrameRight {
+	_background-image: url(../images/cusel/selects-focus.png);
+}
+#cusel-scroll-country_list{z-index:8999;}
+#city_list_box{z-index:1;position: relative;}
+#region_list_box{z-index:0;position: relative;margin-top: 0;}
+
+.cuselOpen {
+	/*z-index: 9999;*/
+}
+
+/*
+	styles for disabled select
+*/
+.classDisCusel,
+.classDisCusel .cuselFrameRight {
+	background-image: url(../images/cusel/selects-2-dis.png) !important;
+	cursor: default;
+	color: #ccc;
+}
+.classDisCusel .cuselText {
+	cursor: default;
+}
+.cusel span:first-child{
+    border-top:1px solid transparent;
+
+}
+.cusel span:last-child{
+        border-bottom:1px solid transparent;
+    border-radius: 0 0 4px 4px;
+    -moz-border-radius-bottomleft: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    -khtml-border-radius-bottomleft: 4px;
+    -moz-border-radius-bottomright: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    -khtml-border-radius-bottomright: 4px;
+
+}
+#cusel-scroll-city span{
+    border-top:1px solid #FFB32C;
+
+
+}
+/*
+	styles for scrollbar
+*/
+#multiAccordionNo .cusel-scroll-wrap{
+         z-index: 500000;
+    
+}
+.cusel .cusel-scroll-wrap { /* контейнер для блока с прокруткой */
+	display: block;
+	visibility: hidden;
+	position: absolute;
+        z-index: 500000;
+        top:25px;
+        left:2px;
+	background: #fff; /* фон выпадающего списка */
+        border: 1px solid #FFB32C;
+	_min-width: 100%;
+	_width: auto;
+        width: 76px;    
+        border-radius: 0 0 4px 4px;
+        -moz-border-radius-bottomleft: 4px;
+        -webkit-border-bottom-left-radius: 4px;
+        -khtml-border-radius-bottomleft: 4px;
+        -moz-border-radius-bottomright: 4px;
+        -webkit-border-bottom-right-radius: 4px;
+        -khtml-border-radius-bottomright: 4px;
+
+}
+
+.cusel .jScrollPaneContainer {
+	position: relative;
+	overflow: hidden;
+	z-index: 5;
+
+	/* border: 1px solid #999;  границы выпадающего спиcка */
+}
+
+.cusel .jScrollPaneTrack { /* трек для ползунка прокрутки */
+	height: 100%;
+	width: 9px !important;
+	background: #ccc;
+	position: absolute;
+	top: 0;
+	right: 2px;
+        border-left: 1px solid #FFB32C;
+}
+.cusel .jScrollPaneDrag { /* ползунок */
+	position: absolute;
+	background-position: -40px -26px;
+	cursor: pointer;
+        background: #3c90ca url(../images/scroll_drag.gif) no-repeat center center;
+	width: 14px !important;
+	_height: 27px !important;
+	right: -3px;
+	
+}
+
+.cusel .jScrollPaneDragTop {
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+.cusel .jScrollPaneDragBottom {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+}
+.cusel .jScrollArrowUp { /* стрелка вверх */
+	position: absolute;
+	top: 0;
+	right: 2px;
+	_width: 26px;
+	_height: 12px;
+	cursor: pointer;
+	background-position: -2px -26px;
+	overflow: hidden;
+        display: none;
+}
+.cusel .jScrollArrowDown { /* стрелка вниз */
+	_width: 25px;
+	_height: 12px;
+	position: absolute;
+	top: auto;
+	bottom: 0;
+	right: 3px;
+	cursor: pointer;
+	background-position: -21px -26px;
+	overflow: hidden;
+                display: none;
+}
+
+
+
+
+*:focus {outline: none;}
+
+.cusel_list_box{
+    border: 1px solid #fad04c;
+        border-radius:4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    border-radius: 4px;
+    width:210px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+    _margin-bottom: 22px;
+}
+
+.cusel_list_box .cusel,
+.cusel_list_box .cuselFrameRight,
+.cusel_list_box .jScrollPaneDrag,
+.cusel_list_box .jScrollArrowUp,
+.cusel_list_box .jScrollArrowDown {
+	_background: url(../images/cusel/selects-2.png) no-repeat;
+        background: transparent;
+        font-weight: bold;
+
+
+}
+.cusel_list_box .cusel { /* общий вид селекта включая стрелку справа */
+	height: 25px;
+	background-position: left top;
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+	font-size: 14px;
+	z-index: 1;
+        
+        _background: url(../images/arr_down.png) no-repeat center right;
+}
+.cusel_list_box .cuselFrameRight { /* левая чсть селект. обыно скругление и левая граница */
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	right: 0;
+	height: 100%;
+	width: 25px;
+	background-position: right top;
+}
+
+.cusel_list_box .cuselText { /* контейнер для отображенного текста селект */
+	height: 25px;
+        line-height: 25px;
+	padding: 0 0 0 10px; /* подбираем отступы и высоту для видимого текста в селекте */
+	cursor: pointer;
+	overflow: hidden;
+	position: relative;
+	/*z-index: 1;*/
+        width: 190px;
+	font-size: 12px;
+        font-family: verdana;
+	position: absolute;
+	top: 0;
+        background: url(../images/arr_down.png) no-repeat right 10px;
+	left: 0;
+}
+* html .cuselText { /* высота блока для текста для ие6 */
+	height: 25px;
+}
+
+.cusel_list_box .cusel span { /* оформление оптиона */
+	display: block;
+        width: 100%;
+	cursor: pointer;
+	white-space: nowrap;
+	padding: 0 0 0 10px; /* паддинг справа - это отступ текста от ползунка */
+	zoom: 1;
+        font-size: 12px;
+        font-family: verdana;
+        height: 24px;
+        line-height: 24px;
+        padding-right: 20px;
+        border-bottom: transparent;
+}
+.cusel_list_box .cusel span:hover,
+.cusel_list_box .cusel .cuselOptHover { /* реакция оптиона на наведение */
+	background: transparent;
+	color: #000;
+
+}
+.cusel_list_box .cusel .cuselActive  {
+    background: transparent;
+    color: #368bc6;
+}
+
+.cusel_list_box .cusel .cuselActive:last-child  {
+    border-bottom:1px solid transparent;
+    border-radius: 0 0 4px 4px;
+    -moz-border-radius-bottomleft: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    -khtml-border-radius-bottomleft: 4px;
+    -moz-border-radius-bottomright: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    -khtml-border-radius-bottomright: 4px;
+}
+
+/*
+	styles for focus and hover
+*/
+.cusel_list_box .cusel:hover,
+.cusel_list_box .cusel:hover .cuselFrameRight,
+.cusel_list_box .cusel:focus,
+.cusel_list_box .cusel:focus .cuselFrameRight,
+.cusel_list_box .cuselFocus,
+.cusel_list_box .cuselFocus .cuselFrameRight {
+	_background-image: url(../images/cusel/selects-focus.png);
+}
+
+.cusel_list_box .cuselOpen {
+	/*z-index: 999;*/
+}
+
+/*
+	styles for disabled select
+*/
+.cusel_list_box .classDisCusel,
+.cusel_list_box .classDisCusel .cuselFrameRight {
+	_background-image: url(../images/cusel/selects-2-dis.png) !important;
+	cursor: default;
+	color: red;
+}
+.cusel_list_box .classDisCusel .cuselText {
+	cursor: default;
+}
+.cusel_list_box .cusel span:first-child{
+    border-top:1px solid transparent;
+	_background: url(../images/arr_up.png) no-repeat 183px center;
+
+
+}
+.cusel_list_box .cusel span:last-child{
+        _border-bottom:1px solid transparent;
+    border-radius: 0 0 4px 4px;
+    -moz-border-radius-bottomleft: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    -khtml-border-radius-bottomleft: 4px;
+    -moz-border-radius-bottomright: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    -khtml-border-radius-bottomright: 4px;
+
+}
+.cusel_list_box  #cusel-scroll-city span{
+    _border-top:1px solid #FFB32C;
+
+
+}
+
+.cusel_list_box .cusel .cusel-scroll-wrap { /* контейнер для блока с прокруткой */
+	display: block;
+	visibility: hidden;
+	position: absolute;
+        z-index: 1000;
+        top:-1px;
+        left:-1px;
+	background: #fff; /* фон выпадающего списка */
+        border: 1px solid #FFB32C;
+	min-width: 100%;
+	width: 210px;
+        _width: 76px;    
+        border-radius:4px;
+        -moz-border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -khtml-border-radius: 4px;
+        border-radius: 4px;
+
+}
+
+.cusel_list_box .cusel .jScrollPaneContainer {
+	position: relative;
+	overflow: hidden;
+	z-index: 5;
+
+	/* border: 1px solid #999;  границы выпадающего спиcка */
+}
+
+.cusel_list_box .cusel .jScrollPaneTrack { /* трек для ползунка прокрутки */
+	height: 100%;
+	width: 9px !important;
+	background: #ccc;
+	position: absolute;
+	top: 0;
+	right: 2px;
+        border-left: 1px solid #FFB32C;
+}
+.cusel_list_box .cusel .jScrollPaneDrag { /* ползунок */
+	position: absolute;
+	background-position: -40px -26px;
+	cursor: pointer;
+        background: #3c90ca url(../images/scroll_drag.gif) no-repeat center center;
+	width: 14px !important;
+	_height: 27px !important;
+	right: -3px;
+	
+}
+
+.cusel_list_box .cusel .jScrollPaneDragTop {
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+.cusel_list_box .cusel .jScrollPaneDragBottom {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+}
+.cusel_list_box .cusel .jScrollArrowUp { /* стрелка вверх */
+	position: absolute;
+	top: 0;
+	right: 2px;
+	_width: 26px;
+	_height: 12px;
+	cursor: pointer;
+	background-position: -2px -26px;
+	overflow: hidden;
+        display: none;
+}
+.cusel_list_box .cusel .jScrollArrowDown { /* стрелка вниз */
+	_width: 25px;
+	_height: 12px;
+	position: absolute;
+	top: auto;
+	bottom: 0;
+	right: 3px;
+	cursor: pointer;
+	background-position: -21px -26px;
+	overflow: hidden;
+                display: none;
+}

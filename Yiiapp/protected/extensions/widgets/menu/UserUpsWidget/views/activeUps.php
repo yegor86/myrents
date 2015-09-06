@@ -1,0 +1,1 @@
+<li style="display:none;" title="количество сегодняшних апов(неотверстано)"><span id="upscount"><?php echo $activeUpsCount?></span></li>

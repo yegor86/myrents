@@ -1,0 +1,106 @@
+.content{
+    padding: 10px 0 35px 0;
+}
+
+#members_table_block{
+    position: relative;
+    left:-1px;
+    width:987px;
+    top:10px;
+    color: #2F2F2D;
+    font-family: 'Trebuchet MS';
+    font-size: 14px;
+    font-weight: bold;  
+}
+
+#members_table_block .members_table_head{
+    height: 18px;
+    clear: both;   
+    background: #E2FBFF;
+    border-bottom:1px solid #AED5DA;
+    border-top:1px solid #FFFFFF;
+    width:976px;
+    padding:3px 10px;
+    z-index: 100;
+    font-weight: bold;
+}
+#members_table_block .members_table_head div{
+    float:left;   
+}
+#members_table_block .members_table_row{
+    clear: both;   
+    position: relative;
+    background: #F7FBEA;
+    height: 40px;
+    padding:5px 10px;
+    border-bottom: 1px solid #E2E2E2;
+    width:976px;
+}
+#members_table_block .members_table_row.agency_row{
+    background: #EAF9FC;
+}
+#members_table_block .members_table_row:hover{
+    background: #E2FBFF;
+
+}
+#members_table_block .members_table_row:hover .mem_send{
+    display: block;
+}
+#members_table_block .members_table_row div{
+    float:left;   
+}
+#members_table_block .members_table_row div span.city{
+    font-family: verdana;
+    font-size: 11px;
+    font-weight: normal;
+    color:#828282;
+    line-height: 18px;
+}
+#members_table_block .mem_name{
+    width:300px;
+}
+#members_table_block .mem_type{
+    width:200px;
+    padding: 10px 0 0 0;
+}
+#members_table_block .mem_agency{
+    width:200px;
+    padding: 10px 0 0 0;
+}
+#members_table_block .mem_rents{
+    width:150px;
+    padding: 10px 0 0 0;
+}
+#members_table_block .mem_send{
+    width:100px;
+    display: none;
+    padding: 10px 0 0 0;
+}
+a.btn6:link, a.btn6:hover, a.btn6:active, a.btn6:visited {
+    padding: 0 10px 0 10px;
+}
+
+
+
+
+#members_table_block .user {
+    float:left;
+    height:40px;
+}
+#members_table_block .user a{
+    display:block;
+    width:40px;
+    height:40px;
+    margin-right: 10px;
+}
+
+#members_table_block .user span {
+    width:40px;
+    height:40px;
+    float:left;
+    display:block;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.fixed{position: fixed;top:0;}

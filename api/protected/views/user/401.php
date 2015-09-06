@@ -1,0 +1,5 @@
+<?php
+
+?>
+
+Acces Denied

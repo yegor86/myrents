@@ -1,0 +1,367 @@
+2012/11/14 14:20:26 [trace] [system.CModule] Loading "log" application component
+2012/11/14 14:20:26 [trace] [system.CModule] Loading "cache" application component
+2012/11/14 14:20:26 [trace] [system.CModule] Loading "errorHandler" application component
+2012/11/14 14:20:46 [trace] [system.CModule] Loading "log" application component
+2012/11/14 14:20:46 [trace] [system.CModule] Loading "cache" application component
+2012/11/14 14:20:46 [trace] [system.CModule] Loading "db" application component
+2012/11/14 14:20:46 [trace] [system.db.CDbConnection] Opening DB connection
+2012/11/14 14:20:46 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `Top`
+2012/11/14 14:20:46 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `Top`
+2012/11/14 14:20:46 [trace] [system.db.ar.CActiveRecord] Top.findAll()
+2012/11/14 14:20:46 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `Top` `t` WHERE `start` < :curdate AND `end` > :curdate and `action` = :action 
+2012/11/14 14:20:46 [trace] [system.db.ar.CActiveRecord] Top.findAll()
+2012/11/14 14:20:46 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `Top` `t` WHERE `start` < :curdate AND `end` > :curdate and `action` = :action 
+2012/11/14 14:20:46 [trace] [system.caching.CMemCache] Saving "top_id_list" to cache
+2012/11/14 14:20:46 [trace] [system.caching.CMemCache] Saving "mainpage_id_list" to cache
+2012/11/14 14:20:46 [trace] [system.caching.CMemCache] Saving "top_shift" to cache
+2012/11/14 14:20:46 [trace] [system.caching.CMemCache] Saving "mainpage_shift" to cache
+2012/11/14 14:20:49 [trace] [system.CModule] Loading "log" application component
+2012/11/14 14:20:49 [trace] [system.CModule] Loading "cache" application component
+2012/11/14 14:20:49 [trace] [system.caching.CMemCache] Serving "top_shift" from cache
+2012/11/14 14:20:49 [trace] [system.caching.CMemCache] Serving "mainpage_shift" from cache
+2012/11/14 14:20:49 [trace] [system.CModule] Loading "db" application component
+2012/11/14 14:20:49 [trace] [system.db.CDbConnection] Opening DB connection
+2012/11/14 14:20:49 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `Top`
+2012/11/14 14:20:49 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `Top`
+2012/11/14 14:20:49 [trace] [system.db.ar.CActiveRecord] Top.findAll()
+2012/11/14 14:20:49 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `Top` `t` WHERE `start` < :curdate AND `end` > :curdate and `action` = :action 
+2012/11/14 14:20:49 [trace] [system.db.ar.CActiveRecord] Top.findAll()
+2012/11/14 14:20:49 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `Top` `t` WHERE `start` < :curdate AND `end` > :curdate and `action` = :action 
+2012/11/14 14:20:49 [trace] [system.caching.CMemCache] Saving "top_id_list" to cache
+2012/11/14 14:20:49 [trace] [system.caching.CMemCache] Saving "mainpage_id_list" to cache
+2012/11/14 14:20:49 [trace] [system.caching.CMemCache] Saving "top_shift" to cache
+2012/11/14 14:20:49 [trace] [system.caching.CMemCache] Saving "mainpage_shift" to cache
+2012/11/14 14:20:49 [trace] [system.CModule] Loading "log" application component
+2012/11/14 14:20:49 [trace] [system.CModule] Loading "cache" application component
+2012/11/14 14:20:49 [trace] [system.caching.CMemCache] Serving "top_shift" from cache
+2012/11/14 14:20:49 [trace] [system.caching.CMemCache] Serving "mainpage_shift" from cache
+2012/11/14 14:20:49 [trace] [system.CModule] Loading "db" application component
+2012/11/14 14:20:49 [trace] [system.db.CDbConnection] Opening DB connection
+2012/11/14 14:20:49 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `Top`
+2012/11/14 14:20:49 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `Top`
+2012/11/14 14:20:49 [trace] [system.db.ar.CActiveRecord] Top.findAll()
+2012/11/14 14:20:49 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `Top` `t` WHERE `start` < :curdate AND `end` > :curdate and `action` = :action 
+2012/11/14 14:20:49 [trace] [system.db.ar.CActiveRecord] Top.findAll()
+2012/11/14 14:20:49 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `Top` `t` WHERE `start` < :curdate AND `end` > :curdate and `action` = :action 
+2012/11/14 14:20:49 [trace] [system.caching.CMemCache] Saving "top_id_list" to cache
+2012/11/14 14:20:49 [trace] [system.caching.CMemCache] Saving "mainpage_id_list" to cache
+2012/11/14 14:20:49 [trace] [system.caching.CMemCache] Saving "top_shift" to cache
+2012/11/14 14:20:49 [trace] [system.caching.CMemCache] Saving "mainpage_shift" to cache
+2012/11/14 14:20:50 [trace] [system.CModule] Loading "log" application component
+2012/11/14 14:20:50 [trace] [system.CModule] Loading "cache" application component
+2012/11/14 14:20:50 [trace] [system.caching.CMemCache] Serving "top_shift" from cache
+2012/11/14 14:20:50 [trace] [system.caching.CMemCache] Serving "mainpage_shift" from cache
+2012/11/14 14:20:50 [trace] [system.CModule] Loading "db" application component
+2012/11/14 14:20:50 [trace] [system.db.CDbConnection] Opening DB connection
+2012/11/14 14:20:50 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `Top`
+2012/11/14 14:20:50 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `Top`
+2012/11/14 14:20:50 [trace] [system.db.ar.CActiveRecord] Top.findAll()
+2012/11/14 14:20:50 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `Top` `t` WHERE `start` < :curdate AND `end` > :curdate and `action` = :action 
+2012/11/14 14:20:50 [trace] [system.db.ar.CActiveRecord] Top.findAll()
+2012/11/14 14:20:50 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `Top` `t` WHERE `start` < :curdate AND `end` > :curdate and `action` = :action 
+2012/11/14 14:20:50 [trace] [system.caching.CMemCache] Saving "top_id_list" to cache
+2012/11/14 14:20:50 [trace] [system.caching.CMemCache] Saving "mainpage_id_list" to cache
+2012/11/14 14:20:50 [trace] [system.caching.CMemCache] Saving "top_shift" to cache
+2012/11/14 14:20:50 [trace] [system.caching.CMemCache] Saving "mainpage_shift" to cache
+2012/11/14 14:20:50 [trace] [system.CModule] Loading "log" application component
+2012/11/14 14:20:50 [trace] [system.CModule] Loading "cache" application component
+2012/11/14 14:20:50 [trace] [system.caching.CMemCache] Serving "top_shift" from cache
+2012/11/14 14:20:50 [trace] [system.caching.CMemCache] Serving "mainpage_shift" from cache
+2012/11/14 14:20:50 [trace] [system.CModule] Loading "db" application component
+2012/11/14 14:20:50 [trace] [system.db.CDbConnection] Opening DB connection
+2012/11/14 14:20:50 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `Top`
+2012/11/14 14:20:50 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `Top`
+2012/11/14 14:20:50 [trace] [system.db.ar.CActiveRecord] Top.findAll()
+2012/11/14 14:20:50 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `Top` `t` WHERE `start` < :curdate AND `end` > :curdate and `action` = :action 
+2012/11/14 14:20:50 [trace] [system.db.ar.CActiveRecord] Top.findAll()
+2012/11/14 14:20:50 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `Top` `t` WHERE `start` < :curdate AND `end` > :curdate and `action` = :action 
+2012/11/14 14:20:50 [trace] [system.caching.CMemCache] Saving "top_id_list" to cache
+2012/11/14 14:20:50 [trace] [system.caching.CMemCache] Saving "mainpage_id_list" to cache
+2012/11/14 14:20:50 [trace] [system.caching.CMemCache] Saving "top_shift" to cache
+2012/11/14 14:20:50 [trace] [system.caching.CMemCache] Saving "mainpage_shift" to cache
+2012/11/14 14:20:50 [trace] [system.CModule] Loading "log" application component
+2012/11/14 14:20:50 [trace] [system.CModule] Loading "cache" application component
+2012/11/14 14:20:50 [trace] [system.caching.CMemCache] Serving "top_shift" from cache
+2012/11/14 14:20:50 [trace] [system.caching.CMemCache] Serving "mainpage_shift" from cache
+2012/11/14 14:20:50 [trace] [system.CModule] Loading "db" application component
+2012/11/14 14:20:50 [trace] [system.db.CDbConnection] Opening DB connection
+2012/11/14 14:20:50 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `Top`
+2012/11/14 14:20:50 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `Top`
+2012/11/14 14:20:50 [trace] [system.db.ar.CActiveRecord] Top.findAll()
+2012/11/14 14:20:50 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `Top` `t` WHERE `start` < :curdate AND `end` > :curdate and `action` = :action 
+2012/11/14 14:20:50 [trace] [system.db.ar.CActiveRecord] Top.findAll()
+2012/11/14 14:20:50 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `Top` `t` WHERE `start` < :curdate AND `end` > :curdate and `action` = :action 
+2012/11/14 14:20:50 [trace] [system.caching.CMemCache] Saving "top_id_list" to cache
+2012/11/14 14:20:50 [trace] [system.caching.CMemCache] Saving "mainpage_id_list" to cache
+2012/11/14 14:20:50 [trace] [system.caching.CMemCache] Saving "top_shift" to cache
+2012/11/14 14:20:50 [trace] [system.caching.CMemCache] Saving "mainpage_shift" to cache
+2012/11/14 14:20:50 [trace] [system.CModule] Loading "log" application component
+2012/11/14 14:20:50 [trace] [system.CModule] Loading "cache" application component
+2012/11/14 14:20:50 [trace] [system.caching.CMemCache] Serving "top_shift" from cache
+2012/11/14 14:20:50 [trace] [system.caching.CMemCache] Serving "mainpage_shift" from cache
+2012/11/14 14:20:50 [trace] [system.CModule] Loading "db" application component
+2012/11/14 14:20:50 [trace] [system.db.CDbConnection] Opening DB connection
+2012/11/14 14:20:50 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `Top`
+2012/11/14 14:20:50 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `Top`
+2012/11/14 14:20:50 [trace] [system.db.ar.CActiveRecord] Top.findAll()
+2012/11/14 14:20:50 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `Top` `t` WHERE `start` < :curdate AND `end` > :curdate and `action` = :action 
+2012/11/14 14:20:50 [trace] [system.db.ar.CActiveRecord] Top.findAll()
+2012/11/14 14:20:50 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `Top` `t` WHERE `start` < :curdate AND `end` > :curdate and `action` = :action 
+2012/11/14 14:20:50 [trace] [system.caching.CMemCache] Saving "top_id_list" to cache
+2012/11/14 14:20:50 [trace] [system.caching.CMemCache] Saving "mainpage_id_list" to cache
+2012/11/14 14:20:50 [trace] [system.caching.CMemCache] Saving "top_shift" to cache
+2012/11/14 14:20:50 [trace] [system.caching.CMemCache] Saving "mainpage_shift" to cache
+2012/11/14 14:20:51 [trace] [system.CModule] Loading "log" application component
+2012/11/14 14:20:51 [trace] [system.CModule] Loading "cache" application component
+2012/11/14 14:20:51 [trace] [system.caching.CMemCache] Serving "top_shift" from cache
+2012/11/14 14:20:51 [trace] [system.caching.CMemCache] Serving "mainpage_shift" from cache
+2012/11/14 14:20:51 [trace] [system.CModule] Loading "db" application component
+2012/11/14 14:20:51 [trace] [system.db.CDbConnection] Opening DB connection
+2012/11/14 14:20:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `Top`
+2012/11/14 14:20:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `Top`
+2012/11/14 14:20:51 [trace] [system.db.ar.CActiveRecord] Top.findAll()
+2012/11/14 14:20:51 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `Top` `t` WHERE `start` < :curdate AND `end` > :curdate and `action` = :action 
+2012/11/14 14:20:51 [trace] [system.db.ar.CActiveRecord] Top.findAll()
+2012/11/14 14:20:51 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `Top` `t` WHERE `start` < :curdate AND `end` > :curdate and `action` = :action 
+2012/11/14 14:20:51 [trace] [system.caching.CMemCache] Saving "top_id_list" to cache
+2012/11/14 14:20:51 [trace] [system.caching.CMemCache] Saving "mainpage_id_list" to cache
+2012/11/14 14:20:51 [trace] [system.caching.CMemCache] Saving "top_shift" to cache
+2012/11/14 14:20:51 [trace] [system.caching.CMemCache] Saving "mainpage_shift" to cache
+2012/11/14 14:20:51 [trace] [system.CModule] Loading "log" application component
+2012/11/14 14:20:51 [trace] [system.CModule] Loading "cache" application component
+2012/11/14 14:20:51 [trace] [system.caching.CMemCache] Serving "top_shift" from cache
+2012/11/14 14:20:51 [trace] [system.caching.CMemCache] Serving "mainpage_shift" from cache
+2012/11/14 14:20:51 [trace] [system.CModule] Loading "db" application component
+2012/11/14 14:20:51 [trace] [system.db.CDbConnection] Opening DB connection
+2012/11/14 14:20:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `Top`
+2012/11/14 14:20:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `Top`
+2012/11/14 14:20:51 [trace] [system.db.ar.CActiveRecord] Top.findAll()
+2012/11/14 14:20:51 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `Top` `t` WHERE `start` < :curdate AND `end` > :curdate and `action` = :action 
+2012/11/14 14:20:51 [trace] [system.db.ar.CActiveRecord] Top.findAll()
+2012/11/14 14:20:51 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `Top` `t` WHERE `start` < :curdate AND `end` > :curdate and `action` = :action 
+2012/11/14 14:20:51 [trace] [system.caching.CMemCache] Saving "top_id_list" to cache
+2012/11/14 14:20:51 [trace] [system.caching.CMemCache] Saving "mainpage_id_list" to cache
+2012/11/14 14:20:51 [trace] [system.caching.CMemCache] Saving "top_shift" to cache
+2012/11/14 14:20:51 [trace] [system.caching.CMemCache] Saving "mainpage_shift" to cache
+2012/11/14 14:20:51 [trace] [system.CModule] Loading "log" application component
+2012/11/14 14:20:51 [trace] [system.CModule] Loading "cache" application component
+2012/11/14 14:20:51 [trace] [system.caching.CMemCache] Serving "top_shift" from cache
+2012/11/14 14:20:51 [trace] [system.caching.CMemCache] Serving "mainpage_shift" from cache
+2012/11/14 14:20:51 [trace] [system.CModule] Loading "db" application component
+2012/11/14 14:20:51 [trace] [system.db.CDbConnection] Opening DB connection
+2012/11/14 14:20:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `Top`
+2012/11/14 14:20:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `Top`
+2012/11/14 14:20:51 [trace] [system.db.ar.CActiveRecord] Top.findAll()
+2012/11/14 14:20:51 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `Top` `t` WHERE `start` < :curdate AND `end` > :curdate and `action` = :action 
+2012/11/14 14:20:51 [trace] [system.db.ar.CActiveRecord] Top.findAll()
+2012/11/14 14:20:51 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `Top` `t` WHERE `start` < :curdate AND `end` > :curdate and `action` = :action 
+2012/11/14 14:20:51 [trace] [system.caching.CMemCache] Saving "top_id_list" to cache
+2012/11/14 14:20:51 [trace] [system.caching.CMemCache] Saving "mainpage_id_list" to cache
+2012/11/14 14:20:51 [trace] [system.caching.CMemCache] Saving "top_shift" to cache
+2012/11/14 14:20:51 [trace] [system.caching.CMemCache] Saving "mainpage_shift" to cache
+2012/11/14 14:20:52 [trace] [system.CModule] Loading "log" application component
+2012/11/14 14:20:52 [trace] [system.CModule] Loading "cache" application component
+2012/11/14 14:20:52 [trace] [system.caching.CMemCache] Serving "top_shift" from cache
+2012/11/14 14:20:52 [trace] [system.caching.CMemCache] Serving "mainpage_shift" from cache
+2012/11/14 14:20:52 [trace] [system.CModule] Loading "db" application component
+2012/11/14 14:20:52 [trace] [system.db.CDbConnection] Opening DB connection
+2012/11/14 14:20:52 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `Top`
+2012/11/14 14:20:52 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `Top`
+2012/11/14 14:20:52 [trace] [system.db.ar.CActiveRecord] Top.findAll()
+2012/11/14 14:20:52 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `Top` `t` WHERE `start` < :curdate AND `end` > :curdate and `action` = :action 
+2012/11/14 14:20:52 [trace] [system.db.ar.CActiveRecord] Top.findAll()
+2012/11/14 14:20:52 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `Top` `t` WHERE `start` < :curdate AND `end` > :curdate and `action` = :action 
+2012/11/14 14:20:52 [trace] [system.caching.CMemCache] Saving "top_id_list" to cache
+2012/11/14 14:20:52 [trace] [system.caching.CMemCache] Saving "mainpage_id_list" to cache
+2012/11/14 14:20:52 [trace] [system.caching.CMemCache] Saving "top_shift" to cache
+2012/11/14 14:20:52 [trace] [system.caching.CMemCache] Saving "mainpage_shift" to cache
+2012/11/14 14:20:52 [trace] [system.CModule] Loading "log" application component
+2012/11/14 14:20:52 [trace] [system.CModule] Loading "cache" application component
+2012/11/14 14:20:52 [trace] [system.caching.CMemCache] Serving "top_shift" from cache
+2012/11/14 14:20:52 [trace] [system.caching.CMemCache] Serving "mainpage_shift" from cache
+2012/11/14 14:20:52 [trace] [system.CModule] Loading "db" application component
+2012/11/14 14:20:52 [trace] [system.db.CDbConnection] Opening DB connection
+2012/11/14 14:20:52 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `Top`
+2012/11/14 14:20:52 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `Top`
+2012/11/14 14:20:52 [trace] [system.db.ar.CActiveRecord] Top.findAll()
+2012/11/14 14:20:52 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `Top` `t` WHERE `start` < :curdate AND `end` > :curdate and `action` = :action 
+2012/11/14 14:20:52 [trace] [system.db.ar.CActiveRecord] Top.findAll()
+2012/11/14 14:20:52 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `Top` `t` WHERE `start` < :curdate AND `end` > :curdate and `action` = :action 
+2012/11/14 14:20:52 [trace] [system.caching.CMemCache] Saving "top_id_list" to cache
+2012/11/14 14:20:52 [trace] [system.caching.CMemCache] Saving "mainpage_id_list" to cache
+2012/11/14 14:20:52 [trace] [system.caching.CMemCache] Saving "top_shift" to cache
+2012/11/14 14:20:52 [trace] [system.caching.CMemCache] Saving "mainpage_shift" to cache
+2012/11/14 14:20:52 [trace] [system.CModule] Loading "log" application component
+2012/11/14 14:20:52 [trace] [system.CModule] Loading "cache" application component
+2012/11/14 14:20:52 [trace] [system.caching.CMemCache] Serving "top_shift" from cache
+2012/11/14 14:20:52 [trace] [system.caching.CMemCache] Serving "mainpage_shift" from cache
+2012/11/14 14:20:52 [trace] [system.CModule] Loading "db" application component
+2012/11/14 14:20:52 [trace] [system.db.CDbConnection] Opening DB connection
+2012/11/14 14:20:52 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `Top`
+2012/11/14 14:20:52 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `Top`
+2012/11/14 14:20:52 [trace] [system.db.ar.CActiveRecord] Top.findAll()
+2012/11/14 14:20:52 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `Top` `t` WHERE `start` < :curdate AND `end` > :curdate and `action` = :action 
+2012/11/14 14:20:52 [trace] [system.db.ar.CActiveRecord] Top.findAll()
+2012/11/14 14:20:52 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `Top` `t` WHERE `start` < :curdate AND `end` > :curdate and `action` = :action 
+2012/11/14 14:20:52 [trace] [system.caching.CMemCache] Saving "top_id_list" to cache
+2012/11/14 14:20:52 [trace] [system.caching.CMemCache] Saving "mainpage_id_list" to cache
+2012/11/14 14:20:52 [trace] [system.caching.CMemCache] Saving "top_shift" to cache
+2012/11/14 14:20:52 [trace] [system.caching.CMemCache] Saving "mainpage_shift" to cache
+2012/11/14 14:20:53 [trace] [system.CModule] Loading "log" application component
+2012/11/14 14:20:53 [trace] [system.CModule] Loading "cache" application component
+2012/11/14 14:20:53 [trace] [system.caching.CMemCache] Serving "top_shift" from cache
+2012/11/14 14:20:53 [trace] [system.caching.CMemCache] Serving "mainpage_shift" from cache
+2012/11/14 14:20:53 [trace] [system.CModule] Loading "db" application component
+2012/11/14 14:20:53 [trace] [system.db.CDbConnection] Opening DB connection
+2012/11/14 14:20:53 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `Top`
+2012/11/14 14:20:53 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `Top`
+2012/11/14 14:20:53 [trace] [system.db.ar.CActiveRecord] Top.findAll()
+2012/11/14 14:20:53 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `Top` `t` WHERE `start` < :curdate AND `end` > :curdate and `action` = :action 
+2012/11/14 14:20:53 [trace] [system.db.ar.CActiveRecord] Top.findAll()
+2012/11/14 14:20:53 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `Top` `t` WHERE `start` < :curdate AND `end` > :curdate and `action` = :action 
+2012/11/14 14:20:53 [trace] [system.caching.CMemCache] Saving "top_id_list" to cache
+2012/11/14 14:20:53 [trace] [system.caching.CMemCache] Saving "mainpage_id_list" to cache
+2012/11/14 14:20:53 [trace] [system.caching.CMemCache] Saving "top_shift" to cache
+2012/11/14 14:20:53 [trace] [system.caching.CMemCache] Saving "mainpage_shift" to cache
+2012/11/14 14:20:53 [trace] [system.CModule] Loading "log" application component
+2012/11/14 14:20:53 [trace] [system.CModule] Loading "cache" application component
+2012/11/14 14:20:53 [trace] [system.caching.CMemCache] Serving "top_shift" from cache
+2012/11/14 14:20:53 [trace] [system.caching.CMemCache] Serving "mainpage_shift" from cache
+2012/11/14 14:20:53 [trace] [system.CModule] Loading "db" application component
+2012/11/14 14:20:53 [trace] [system.db.CDbConnection] Opening DB connection
+2012/11/14 14:20:53 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `Top`
+2012/11/14 14:20:53 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `Top`
+2012/11/14 14:20:53 [trace] [system.db.ar.CActiveRecord] Top.findAll()
+2012/11/14 14:20:53 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `Top` `t` WHERE `start` < :curdate AND `end` > :curdate and `action` = :action 
+2012/11/14 14:20:53 [trace] [system.db.ar.CActiveRecord] Top.findAll()
+2012/11/14 14:20:53 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `Top` `t` WHERE `start` < :curdate AND `end` > :curdate and `action` = :action 
+2012/11/14 14:20:53 [trace] [system.caching.CMemCache] Saving "top_id_list" to cache
+2012/11/14 14:20:53 [trace] [system.caching.CMemCache] Saving "mainpage_id_list" to cache
+2012/11/14 14:20:53 [trace] [system.caching.CMemCache] Saving "top_shift" to cache
+2012/11/14 14:20:53 [trace] [system.caching.CMemCache] Saving "mainpage_shift" to cache
+2012/11/14 14:20:53 [trace] [system.CModule] Loading "log" application component
+2012/11/14 14:20:53 [trace] [system.CModule] Loading "cache" application component
+2012/11/14 14:20:53 [trace] [system.caching.CMemCache] Serving "top_shift" from cache
+2012/11/14 14:20:53 [trace] [system.caching.CMemCache] Serving "mainpage_shift" from cache
+2012/11/14 14:20:53 [trace] [system.CModule] Loading "db" application component
+2012/11/14 14:20:53 [trace] [system.db.CDbConnection] Opening DB connection
+2012/11/14 14:20:53 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `Top`
+2012/11/14 14:20:53 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `Top`
+2012/11/14 14:20:53 [trace] [system.db.ar.CActiveRecord] Top.findAll()
+2012/11/14 14:20:53 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `Top` `t` WHERE `start` < :curdate AND `end` > :curdate and `action` = :action 
+2012/11/14 14:20:53 [trace] [system.db.ar.CActiveRecord] Top.findAll()
+2012/11/14 14:20:53 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `Top` `t` WHERE `start` < :curdate AND `end` > :curdate and `action` = :action 
+2012/11/14 14:20:53 [trace] [system.caching.CMemCache] Saving "top_id_list" to cache
+2012/11/14 14:20:53 [trace] [system.caching.CMemCache] Saving "mainpage_id_list" to cache
+2012/11/14 14:20:53 [trace] [system.caching.CMemCache] Saving "top_shift" to cache
+2012/11/14 14:20:53 [trace] [system.caching.CMemCache] Saving "mainpage_shift" to cache
+2012/11/14 14:20:54 [trace] [system.CModule] Loading "log" application component
+2012/11/14 14:20:54 [trace] [system.CModule] Loading "cache" application component
+2012/11/14 14:20:54 [trace] [system.caching.CMemCache] Serving "top_shift" from cache
+2012/11/14 14:20:54 [trace] [system.caching.CMemCache] Serving "mainpage_shift" from cache
+2012/11/14 14:20:54 [trace] [system.CModule] Loading "db" application component
+2012/11/14 14:20:54 [trace] [system.db.CDbConnection] Opening DB connection
+2012/11/14 14:20:54 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `Top`
+2012/11/14 14:20:54 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `Top`
+2012/11/14 14:20:54 [trace] [system.db.ar.CActiveRecord] Top.findAll()
+2012/11/14 14:20:54 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `Top` `t` WHERE `start` < :curdate AND `end` > :curdate and `action` = :action 
+2012/11/14 14:20:54 [trace] [system.db.ar.CActiveRecord] Top.findAll()
+2012/11/14 14:20:54 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `Top` `t` WHERE `start` < :curdate AND `end` > :curdate and `action` = :action 
+2012/11/14 14:20:54 [trace] [system.caching.CMemCache] Saving "top_id_list" to cache
+2012/11/14 14:20:54 [trace] [system.caching.CMemCache] Saving "mainpage_id_list" to cache
+2012/11/14 14:20:54 [trace] [system.caching.CMemCache] Saving "top_shift" to cache
+2012/11/14 14:20:54 [trace] [system.caching.CMemCache] Saving "mainpage_shift" to cache
+2012/11/14 14:20:54 [trace] [system.CModule] Loading "log" application component
+2012/11/14 14:20:54 [trace] [system.CModule] Loading "cache" application component
+2012/11/14 14:20:54 [trace] [system.caching.CMemCache] Serving "top_shift" from cache
+2012/11/14 14:20:54 [trace] [system.caching.CMemCache] Serving "mainpage_shift" from cache
+2012/11/14 14:20:54 [trace] [system.CModule] Loading "db" application component
+2012/11/14 14:20:54 [trace] [system.db.CDbConnection] Opening DB connection
+2012/11/14 14:20:54 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `Top`
+2012/11/14 14:20:54 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `Top`
+2012/11/14 14:20:54 [trace] [system.db.ar.CActiveRecord] Top.findAll()
+2012/11/14 14:20:54 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `Top` `t` WHERE `start` < :curdate AND `end` > :curdate and `action` = :action 
+2012/11/14 14:20:54 [trace] [system.db.ar.CActiveRecord] Top.findAll()
+2012/11/14 14:20:54 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `Top` `t` WHERE `start` < :curdate AND `end` > :curdate and `action` = :action 
+2012/11/14 14:20:54 [trace] [system.caching.CMemCache] Saving "top_id_list" to cache
+2012/11/14 14:20:54 [trace] [system.caching.CMemCache] Saving "mainpage_id_list" to cache
+2012/11/14 14:20:54 [trace] [system.caching.CMemCache] Saving "top_shift" to cache
+2012/11/14 14:20:54 [trace] [system.caching.CMemCache] Saving "mainpage_shift" to cache
+2012/11/14 14:20:55 [trace] [system.CModule] Loading "log" application component
+2012/11/14 14:20:55 [trace] [system.CModule] Loading "cache" application component
+2012/11/14 14:20:55 [trace] [system.caching.CMemCache] Serving "top_shift" from cache
+2012/11/14 14:20:55 [trace] [system.caching.CMemCache] Serving "mainpage_shift" from cache
+2012/11/14 14:20:55 [trace] [system.CModule] Loading "db" application component
+2012/11/14 14:20:55 [trace] [system.db.CDbConnection] Opening DB connection
+2012/11/14 14:20:55 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `Top`
+2012/11/14 14:20:55 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `Top`
+2012/11/14 14:20:55 [trace] [system.db.ar.CActiveRecord] Top.findAll()
+2012/11/14 14:20:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `Top` `t` WHERE `start` < :curdate AND `end` > :curdate and `action` = :action 
+2012/11/14 14:20:55 [trace] [system.db.ar.CActiveRecord] Top.findAll()
+2012/11/14 14:20:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `Top` `t` WHERE `start` < :curdate AND `end` > :curdate and `action` = :action 
+2012/11/14 14:20:55 [trace] [system.caching.CMemCache] Saving "top_id_list" to cache
+2012/11/14 14:20:55 [trace] [system.caching.CMemCache] Saving "mainpage_id_list" to cache
+2012/11/14 14:20:55 [trace] [system.caching.CMemCache] Saving "top_shift" to cache
+2012/11/14 14:20:55 [trace] [system.caching.CMemCache] Saving "mainpage_shift" to cache
+2012/11/14 14:20:55 [trace] [system.CModule] Loading "log" application component
+2012/11/14 14:20:55 [trace] [system.CModule] Loading "cache" application component
+2012/11/14 14:20:55 [trace] [system.caching.CMemCache] Serving "top_shift" from cache
+2012/11/14 14:20:55 [trace] [system.caching.CMemCache] Serving "mainpage_shift" from cache
+2012/11/14 14:20:55 [trace] [system.CModule] Loading "db" application component
+2012/11/14 14:20:55 [trace] [system.db.CDbConnection] Opening DB connection
+2012/11/14 14:20:55 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `Top`
+2012/11/14 14:20:55 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `Top`
+2012/11/14 14:20:55 [trace] [system.db.ar.CActiveRecord] Top.findAll()
+2012/11/14 14:20:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `Top` `t` WHERE `start` < :curdate AND `end` > :curdate and `action` = :action 
+2012/11/14 14:20:55 [trace] [system.db.ar.CActiveRecord] Top.findAll()
+2012/11/14 14:20:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `Top` `t` WHERE `start` < :curdate AND `end` > :curdate and `action` = :action 
+2012/11/14 14:20:55 [trace] [system.caching.CMemCache] Saving "top_id_list" to cache
+2012/11/14 14:20:55 [trace] [system.caching.CMemCache] Saving "mainpage_id_list" to cache
+2012/11/14 14:20:55 [trace] [system.caching.CMemCache] Saving "top_shift" to cache
+2012/11/14 14:20:55 [trace] [system.caching.CMemCache] Saving "mainpage_shift" to cache
+2012/11/14 14:20:56 [trace] [system.CModule] Loading "log" application component
+2012/11/14 14:20:56 [trace] [system.CModule] Loading "cache" application component
+2012/11/14 14:20:56 [trace] [system.caching.CMemCache] Serving "top_shift" from cache
+2012/11/14 14:20:56 [trace] [system.caching.CMemCache] Serving "mainpage_shift" from cache
+2012/11/14 14:20:56 [trace] [system.CModule] Loading "db" application component
+2012/11/14 14:20:56 [trace] [system.db.CDbConnection] Opening DB connection
+2012/11/14 14:20:56 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `Top`
+2012/11/14 14:20:56 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `Top`
+2012/11/14 14:20:56 [trace] [system.db.ar.CActiveRecord] Top.findAll()
+2012/11/14 14:20:56 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `Top` `t` WHERE `start` < :curdate AND `end` > :curdate and `action` = :action 
+2012/11/14 14:20:56 [trace] [system.db.ar.CActiveRecord] Top.findAll()
+2012/11/14 14:20:56 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `Top` `t` WHERE `start` < :curdate AND `end` > :curdate and `action` = :action 
+2012/11/14 14:20:56 [trace] [system.caching.CMemCache] Saving "top_id_list" to cache
+2012/11/14 14:20:56 [trace] [system.caching.CMemCache] Saving "mainpage_id_list" to cache
+2012/11/14 14:20:56 [trace] [system.caching.CMemCache] Saving "top_shift" to cache
+2012/11/14 14:20:56 [trace] [system.caching.CMemCache] Saving "mainpage_shift" to cache
+2012/11/14 14:32:48 [trace] [system.CModule] Loading "log" application component
+2012/11/14 14:32:48 [trace] [system.CModule] Loading "cache" application component
+2012/11/14 14:32:48 [trace] [system.caching.CMemCache] Serving "top_shift" from cache
+2012/11/14 14:32:48 [trace] [system.caching.CMemCache] Serving "mainpage_shift" from cache
+2012/11/14 14:32:48 [trace] [system.CModule] Loading "db" application component
+2012/11/14 14:32:48 [trace] [system.db.CDbConnection] Opening DB connection
+2012/11/14 14:32:48 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `Top`
+2012/11/14 14:32:48 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `Top`
+2012/11/14 14:32:48 [trace] [system.db.ar.CActiveRecord] Top.findAll()
+2012/11/14 14:32:48 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `Top` `t` WHERE `start` < :curdate AND `end` > :curdate and `action` = :action 
+2012/11/14 14:32:48 [trace] [system.db.ar.CActiveRecord] Top.findAll()
+2012/11/14 14:32:48 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `Top` `t` WHERE `start` < :curdate AND `end` > :curdate and `action` = :action 
+2012/11/14 14:32:48 [trace] [system.caching.CMemCache] Saving "top_id_list" to cache
+2012/11/14 14:32:48 [trace] [system.caching.CMemCache] Saving "mainpage_id_list" to cache
+2012/11/14 14:32:48 [trace] [system.caching.CMemCache] Saving "top_shift" to cache
+2012/11/14 14:32:48 [trace] [system.caching.CMemCache] Saving "mainpage_shift" to cache
+2012/11/14 14:35:44 [trace] [system.CModule] Loading "log" application component
+2012/11/14 14:35:44 [trace] [system.CModule] Loading "cache" application component
+2012/11/14 14:35:44 [trace] [system.CModule] Loading "db" application component
+2012/11/14 14:35:44 [trace] [system.db.CDbConnection] Opening DB connection
+2012/11/14 14:35:44 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `Top`
+2012/11/14 14:35:44 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `Top`
+2012/11/14 14:35:44 [trace] [system.db.ar.CActiveRecord] Top.findAll()
+2012/11/14 14:35:44 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `Top` `t` WHERE `start` < :curdate AND `end` > :curdate and `action` = :action 
+2012/11/14 14:35:44 [trace] [system.db.ar.CActiveRecord] Top.findAll()
+2012/11/14 14:35:44 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `Top` `t` WHERE `start` < :curdate AND `end` > :curdate and `action` = :action 
+2012/11/14 14:35:44 [trace] [system.caching.CMemCache] Saving "top_id_list" to cache
+2012/11/14 14:35:44 [trace] [system.caching.CMemCache] Saving "mainpage_id_list" to cache
+2012/11/14 14:35:44 [trace] [system.caching.CMemCache] Saving "top_shift" to cache
+2012/11/14 14:35:44 [trace] [system.caching.CMemCache] Saving "mainpage_shift" to cache

@@ -1,0 +1,76 @@
+.lang_level_box .show_name_level{
+    line-height: 18px;
+}
+
+.lang_level_box{
+    height: 20px;
+    clear: both;
+    margin: 4px 0;
+}
+
+.lang_level {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	width: 103px;
+	height: 16px;
+	position: relative;
+	background: url(../images/lang_level.jpg) top left repeat-x;
+}
+
+.lang_level li {
+	text-indent: -90000px;
+	padding: 0px;
+	margin: 0px;
+	float: left;
+	display: block;
+}
+
+.lang_level li div {
+	outline: none;
+	width: 20px;
+	height: 16px;
+	text-decoration: none;
+	text-indent: -9000px;
+	z-index: 20;
+	position: absolute;
+	padding: 0px;
+}
+
+.lang_level div.out1	{ left: 0px; }
+.lang_level li div.over1	{ background: url(../images/lang_level.jpg) left center; z-index: 2; left: 0px; width: 20px; cursor: pointer; }
+.lang_level div.out2	{ left: 20px; }
+.lang_level li div.over2	{ background: url(../images/lang_level.jpg) left center; z-index: 2; left: 0px; width: 42px; cursor: pointer; }
+.lang_level div.out3	{left: 42px; }
+.lang_level li div.over3	{ background: url(../images/lang_level.jpg) left center; z-index: 2; left: 0px; width: 64px; cursor: pointer; }
+.lang_level div.out4	{left: 64px; }
+.lang_level li div.over4	{ background: url(../images/lang_level.jpg) left center; z-index: 2; left: 0px; width: 84px; cursor: pointer; }
+.lang_level div.out5	{left: 84px; }
+.lang_level li div.over5	{ background: url(../images/lang_level.jpg) left center; z-index: 2; left: 0px; width: 103px; cursor: pointer; }
+
+
+
+#lang_level div.out1	{ left: 0px; }
+#lang_level li div.over1	{ background: url(../images/color_level.jpg) left center; z-index: 2; left: 0px; width: 20px; cursor: pointer;background-position: 0 -1px; }
+#lang_level div.out2	{ left: 20px; }
+#lang_level li div.over2	{ background: url(../images/color_level.jpg) left center; z-index: 2; left: 0px; width: 42px; cursor: pointer;background-position: 0 -23px; }
+#lang_level div.out3	{left: 42px; }
+#lang_level li div.over3	{ background: url(../images/color_level.jpg) left center; z-index: 2; left: 0px; width: 64px; cursor: pointer;background-position: 0 -45px; }
+
+#lang_level div.out4	{left: 64px; }
+#lang_level li div.over4	{ background: url(../images/color_level.jpg) left center; z-index: 2; left: 0px; width: 84px; cursor: pointer;background-position: 0 -67px; }
+
+#lang_level div.out5	{left: 84px; }
+#lang_level li div.over5	{ background: url(../images/color_level.jpg) left center; z-index: 2; left: 0px; width: 103px; cursor: pointer; background-position: 0 -89px; }
+
+
+
+.lang_level li.level {
+	background: url(../images/lang_level.jpg) left bottom;
+	position: absolute;
+        left:0;
+	height: 16px;
+	display: block;
+	text-indent: -9000px;
+	z-index: 1;
+}
