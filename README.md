@@ -1,9 +1,9 @@
-h2. Real Estate Online service
+## Real Estate Online service
 
-URL: myrents.com.ua
+URL: <a href="myrents.com.ua">myrents.com.ua</a>
 
 
-h3. Technologies
+### Technologies
 * PHP
 * Yii framework
 * MySQL
