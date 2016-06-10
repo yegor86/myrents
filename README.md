@@ -1,6 +1,6 @@
 ## Real Estate Online service
 
-URL: <a href="http://myrents.com.ua">myrents.com.ua</a>
+URL: <a href="http://myrents.com.ua/search">myrents.com.ua</a>
 
 
 ### Technologies
