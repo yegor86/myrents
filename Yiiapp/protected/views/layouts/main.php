@@ -10,7 +10,7 @@
 	<!--[if IE 7]>
 	<script type="text/javascript" src="<?php echo $this->getAssetsUrl() ?>/js/badbrowse.js"></script>
 	<![endif]-->
-        <script type="text/javascript" src="http://vk.com/js/api/share.js?11" charset="windows-1251"></script>
+        <!-- <script type="text/javascript" src="http://vk.com/js/api/share.js?11" charset="windows-1251"></script> -->
         <?php if($_SERVER['HTTP_HOST'] == 'myrents.com.ua'){?>
 	<script type="text/javascript">
 	    var _gaq = _gaq || [];

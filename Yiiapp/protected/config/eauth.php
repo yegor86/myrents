@@ -8,11 +8,11 @@ return  array(
 		      'client_id' => '438467102834285',
 		    'client_secret' => '2bae8fc591a1697cf5205a59d7e16eed',
 		),
-		'vkontakte' => array(
-		    'class' => 'VKontakteOAuthService',
-		    'client_id' => '2922902',			//myrents.com.ua
-		    'client_secret' => 'SlvyeHvqG5UZLmXUgJVP',	//myrents.com.ua
-		),
+		// 'vkontakte' => array(
+		//     'class' => 'VKontakteOAuthService',
+		//     'client_id' => '2922902',			//myrents.com.ua
+		//     'client_secret' => 'SlvyeHvqG5UZLmXUgJVP',	//myrents.com.ua
+		// ),
 	    ),
 	);
 ?>
